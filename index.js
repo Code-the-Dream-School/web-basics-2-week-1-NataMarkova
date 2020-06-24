@@ -20,7 +20,7 @@ console.log('hello world')
  * Example Output: n/a
  */
 
-var some_var = 3;
+const some_var = 3;
 console.log(some_var);
 
 
@@ -35,8 +35,8 @@ console.log(some_var);
  * Example Output: "Elizabeth Thompson"
  */
 
-var firstName = "Natalia";
-var lastName = "Markova";
+const firstName = "Natalia";
+const lastName = "Markova";
 console.log(`${firstName} ${lastName}`);
 
 
@@ -52,10 +52,11 @@ console.log(`${firstName} ${lastName}`);
  * Example Output: "$49.90"
  */
 
-var price = 11.20;
-var quantity = 10;
-var total = price * quantity;
-console.log(total);
+const price = 11.20;
+const quantity = 10;
+const total = price * quantity;
+const totalRounded = total.toFixed(2)
+console.log(totalRounded);
 
 
 /* Challenge #4
@@ -94,7 +95,7 @@ console.log(message);
  */
 
 function myFunction() {
-    var randStr = "This is my first function using JavaScript";
+    const randStr = "This is my first function using JavaScript";
     return randStr;
 }
 console.log(myFunction());
@@ -122,7 +123,7 @@ console.log(myArrowFunction());
  * 1. Create a function called `stringToUpper`
  * 2. Add a parameter called `str` in your function signature
  * 3. Add a return statement in your function which returns the input string in all uppercase letters
- * 4. Use `console.log` to print out the output of `stringToUpper(str)`
+ * 4. Use `console.log` to print out the output of `stringToUpper(s
  *
  * Example Output: "WHY AM I SCREAMING"
  */
